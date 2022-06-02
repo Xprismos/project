@@ -1,0 +1,251 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;  
+    z-index: 1;
+}
+
+
+.btn-secondary{
+    --bs-btn-active-bg: none !important;
+    --bs-btn-bg: none !important;
+    --bs-btn-color: black !important;
+    --bs-btn-border-color: none !important;
+    --bs-btn-hover-color: none !important;
+    --bs-btn-hover-bg:none !important ;
+    --bs-btn-hover-border-color: none !important;
+    --bs-btn-active-color: none !important;
+     position: relative;
+}
+.dropdown-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+
+#hl{
+    font-size: 18px;
+}
+
+.header.img{
+    margin-top: 10px;
+
+}
+
+a {
+    display: block;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-direction: column;
+
+}
+.well{
+    height: 100%;
+    width: 100%;
+     background-color:#F2F9FF;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-bottom: 90px;
+    
+
+
+}
+
+#bigtext{   
+    font-size: 70px;
+}
+#smalltext{
+
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+#button{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #008CFF;
+    border-radius: 25px;
+     justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px lightgreen;
+    margin-bottom: 20px;
+    transition: width 2s, height 2s;
+    color: white;
+}
+
+#button:hover {
+    transform: translate(5px, 5px);
+    box-shadow: none;
+    transition-delay: 10s;
+}
+
+#butto{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+
+    background-color: white;
+    border: solid;
+    border-width: 0.2px;
+    border-radius: 25px;
+     justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px lightgreen;
+    margin-bottom: 20px;
+    transition: width 2s, height 2s;
+    color: black;
+}
+
+#butto:hover {
+    transform: translate(5px, 5px);
+    box-shadow: none;
+    background-color: #008CFF;
+    transition-delay: 10s;
+    
+}
+
+#butt{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+
+    background-color: white;
+    border: solid;
+    border-width: 0.2px;
+    border-radius: 25px;
+     justify-content: center;
+    align-items: center;
+   
+    margin-bottom: 20px;
+
+    color: black;
+}
+
+#butt:hover {
+
+    background-color: #b2c6d6;
+
+}
+
+
+ .contain2{
+    
+    display: flex;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+
+#bigtext2{   
+    
+    font-size: 80px;
+}
+
+.contain3{
+  
+   
+    display: flex;
+    flex-direction: row;
+
+    
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+    justify-content: space-evenly;
+}
+
+.column1{ 
+ 
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+
+
+.column2{
+   
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.column2 #here{
+    display: flex;
+     justify-content: center;
+}
+
+.contain4{
+    
+   
+    display: flex;
+    flex-direction: row;
+    
+    
+    margin-top: 70px;
+    margin-right: 150px;
+    margin-left: 150px;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+
+#bigtextheader{   
+    font-size: 30px;
+}
+
+.contain5{
+ 
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contain6{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
